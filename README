@@ -1,0 +1,5 @@
+The PHPMVC Compat file is a shim that aims at allowing developers a way of migrating across their older PHPMVC (PHP4 code) to Phruts PHP5 code. 
+
+It attempts to do this by injecting back into the application a number of older classes that existed in PHPMVC and setting back up the inheritance. 
+
+It may not be possible to avoid some major refactoring to your application (as PHPMVC didn't seem to have any standardised boot-strapping), but this may assist with getting your application running in PHP5 Phruts quicker.
